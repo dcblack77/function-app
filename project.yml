@@ -1,0 +1,5 @@
+packages:
+  - name: sample
+    actions:
+      - name: function
+        runtime: 'nodejs:default'
