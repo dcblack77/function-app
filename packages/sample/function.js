@@ -1,6 +1,7 @@
 async function main(args) {
-  let name = args.name || 'stranger'
-  let greeting = 'Hello ' + name + '!'
+  console.log(args)
+  const name = args.name || 'stranger'
+  const greeting = 'Hello ' + name + '!'
   console.log(greeting)
   return {"body": greeting}
 }
